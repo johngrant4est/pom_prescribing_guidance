@@ -1,0 +1,56 @@
+* {  box-sizing: border-box; }
+p,h1,h2,h3,a {font-family: verdana,arial,sans-serif;font-size:medium; }
+p.flat {margin:0px;padding:5px;}
+p.label {text-align:right;margin:0px;font-size:small}
+p.data { margin:0px; font-size:small;}
+p.err {font-size:small;color:#f00;}
+p.advisory {color:#f60;font-size:small;font-weight:bold;}
+p.version-info {font-size:x-small;color:#333; }
+
+.x-small { font-size:x-small;}
+.small { font-size: small;}
+.logged-in {display:inline;font-size:small;margin-left: 10px;}
+.letter-norm { font-weight:bold;font-size:medium; }
+.letter-bold {color:#006600;font-weight:bold;font-size:large;}
+table {border:none;}
+th {background-color: #ccc; }
+tr { background-color:#fff;}
+tr.col1 {background-color:#fff;}
+tr.col2 {background-color: #eee;}
+td {}
+td.label {font-weight:bold;background-color:#eee;}
+td.data {background-color: #fff}
+
+/* linkage */
+a { text-decoration:none; }
+a:link, a:visited {color:#00F; }
+a:hover {color:#999; }
+a.x-small { font-size: x-small; }
+a.small { font-size:small;}
+a.nav {margin-left:4px;margin-right:4px;font-size:small;}
+
+/* formatted <div>s */
+.header {background-color:#eee; padding:4px;}
+
+/* Buttons */
+.button { cursor:pointer; border:none; }
+
+/* layout*/
+#left {
+  float:left;
+  width:auto;
+  border:none;
+}
+#right {
+  float:left;
+  margin-left:20px;
+  background-color:#fff;
+  border:none;
+  padding-left:8px;
+  width:auto;
+}
+#top-bar {
+  margin-bottom:8px;
+}
+#main { width:auto; margin-top:8px; }
+#footer { width:auto;margin-top:8px;padding:2px;background-color:#ddd;text-align:center;}
