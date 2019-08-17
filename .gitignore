@@ -1,0 +1,5 @@
+# files to ignore for security reasons
+auth_mgmt.php
+login.php
+logout.php
+manage.php
