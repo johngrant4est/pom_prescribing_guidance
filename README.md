@@ -4,3 +4,5 @@ This project began at #gashack at the Royal College of Anaesthetists in October 
 There is a live demo here :
 https://www.scata.org.uk/projects/pom_prescribe
 We require further input to refine the more complex drug instructions e.g. insulin and anti-thrombotics. We also need to include stuff like timing of limb and neuraxial blocks in relation to anti-thrombotics.
+I have excluded the back-end management system and the libraries for sending mail (PHPMailer) and creating PDFs (FPDF).
+These are freely available.
