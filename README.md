@@ -6,3 +6,4 @@ https://www.scata.org.uk/projects/pom_prescribe
 We require further input to refine the more complex drug instructions e.g. insulin and anti-thrombotics. We also need to include stuff like timing of limb and neuraxial blocks in relation to anti-thrombotics.
 I have excluded the back-end management system and the libraries for sending mail (PHPMailer) and creating PDFs (FPDF).
 These are freely available.
+Also, for security reasons, dbconnect.php is not included but I have included a sample_dbconnect.php that you can modify to connect to your DB that you can create using the SQL file.
