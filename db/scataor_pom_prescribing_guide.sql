@@ -39,12 +39,6 @@ CREATE TABLE `authentication` (
   `last_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT 'Last Updated'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `authentication`
---
-
-INSERT INTO `authentication` (`id`, `user_id`, `one_time_code`, `valid_from`, `valid_to`, `expired`, `interval_in_secs`, `last_updated`) VALUES
-(1, 2, '64sw00ndj3mk', '2018-05-02 10:45:36', '2018-05-03 10:45:36', 0, NULL, '2018-05-02 10:45:36');
 
 -- --------------------------------------------------------
 
@@ -1453,10 +1447,6 @@ CREATE TABLE `users` (
 --
 -- Dumping data for table `users`
 --
-
-INSERT INTO `users` (`id`, `username`, `password`, `firstname`, `family_name`, `ip`, `last_login`, `previous_login`, `last_message`) VALUES
-(1, 'webmaster@scata.org.uk', 'd298b908456d6ae8c4047c6165db11d7fd6a56f1', 'Grant', 'Forrest', '185.58.166.44', '2018-04-04 15:50:58', '2018-03-07 13:16:19', ''),
-(2, 'lawrence.li@nhs.net', 'b644c3042fbed226b2c1a8250c4bc7b1178f80b1', 'Lawrence', 'Li', '127.0.0.1', '2018-03-07 11:07:39', '2017-11-29 14:53:40', '');
 
 --
 -- Indexes for dumped tables
