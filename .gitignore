@@ -5,5 +5,5 @@ logout.php
 manage.php
 inc/dbconnect.php
 inc/auth_mgmt_funcs.php
-/PHPMailer-5.2.21
-/fpdf-1.81
+PHPMailer-5.2.21
+fpdf-1.81
